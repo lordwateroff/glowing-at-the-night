@@ -10,7 +10,7 @@ local uiselect = ui.new_multiselect("LUA", "B", "Old AnimFix", "Freeze Legs in A
 local limitfl = ui.reference("AA", "Fake lag", "Limit")
 local ground_ticks, end_time = 1, 0
 
--- idk where im found it but it's worki good
+-- worki good fucntion
 local function table_contains(tbl, val)
     for i=1,#tbl do
         if tbl[i] == val then
